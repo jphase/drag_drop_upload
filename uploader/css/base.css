@@ -1,0 +1,135 @@
+/* CSS Reset */
+* { margin:0; padding:0; }
+
+body {
+    /*background-color: #d4dee3;*/
+    background-image: url("../images/background.png");
+}
+
+#container {
+    width: 99.5%;
+}
+
+#main {
+    width: 960px;
+    height: auto;
+}
+
+#pageTitle {
+    font-family: "Segoe UI",Arial,Serif;
+    font-size: 36pt;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+#createwindowtitle {
+    font-family: "Segoe UI",Arial,Serif;
+    font-size: 24pt;
+}
+
+a, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearer {clear: both}
+
+#createEventForm>#buttons, #regFiles {
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -67.5px;
+}
+
+#regFiles {
+    margin-top: 20px;
+    margin-left: -90px;
+}
+
+#create {
+    float: right;
+    cursor: pointer;
+    color: #666;
+    margin-right: 175px;
+    font-weight: bolder;
+}
+
+#pageOperations {
+    margin-top: 75px;
+}
+
+#createEvent {
+    padding: 3px;
+    display:none;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.3);
+    background-image: url("../images/createEvent.png");
+    position: relative;
+    width: 700px;
+    height: auto;
+    left: 50%;
+    margin-left: -350px;
+}
+
+#dndFiles {
+    margin-top: 10px;
+    min-height: 75px;
+    height: auto;
+    width: 670px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#backText {
+    z-index: -999;
+    font-family: "Segoe UI",Arial,Serif;
+    color: #999;
+    font-size: 24pt;
+    margin-top: 10px;
+    margin-left: 220px;
+    cursor: default;
+}
+
+#progressbar {
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    height: 10px;
+    width: 400px;
+    border: 1px solid #333;
+}
+
+#fillAmount {
+    margin: 2px;
+    background-color: #4463ff;
+    height: 6px;
+    width: 1%;
+}
+
+#errorFile, #successFile {
+    font-family: "Segoe UI",Arial,Serif;
+    height: inherit;
+    border-top: 1px solid #555;
+    width: auto;
+    padding: 5px;
+}
+
+#success, #error {
+    float: right;
+}
+
+#success {
+    margin-top: 8px;
+}
+
+#fileType {
+    width: 24px;
+    height: 24px;
+}
+
+#postsContainer {
+    position: relative;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    border: 5px solid #ff0000;
+}
